@@ -1,0 +1,183 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/*Common style starts*/
+.hr1{
+    border: 2px;
+    border-color: olive;
+    border-style: double;
+}
+/*Common style ends*/
+/*Navigation bar style starts here*/
+#navbar{
+    display: flex;
+    /*justify-content: space-evenly;*/
+    height: 95px;
+    background-color:tomato;
+    color: aliceblue;
+    align-items: center; /*vertical alignment*/
+    text-align: center;/*horizontal alignment*/
+    font-family: 'Lobster Two', cursive;
+}
+#logo, #navlinks, #socialmedia{
+   /* border:3px solid springgreen;*/
+   height: 75px;
+}
+/*Logo Style Starts here*/
+#logo{
+    width: 20%;
+    display: flex; /*very imp*/
+    align-items: center;
+    /* margin-top: 9px; */
+    /*border: 2px solid khaki;*/
+}
+/*Navlinks Style Starts here*/
+#navlinks{
+    width: 60%;
+    /* border: 2px solid khaki; */
+}
+#links{
+    list-style:none;
+    display: flex;
+    justify-content: center;
+}
+.currentpage{
+    border:2px solid blueviolet
+}
+
+.linksanchor{
+    color: chartreuse;
+    text-decoration: none;
+    font-size: 22px;
+    font-style:italic;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 20px;
+}
+.linksanchor:hover{
+    background-color: black;
+    color: blueviolet;
+    transition: 1s;
+}
+/*Navlinks Style Ends*/
+/*Social Media Style Starts*/
+#socialmedia{
+    width: 20%;
+    /* border: 2px solid khaki; */
+
+}
+.mediaimg{
+    border-radius: 20px;
+    padding: 7px;
+    height: 65px;
+}
+.mediaimg:hover{
+    transform: scale(1.5,1.5);
+    transition: 1s;
+    box-shadow: 10px 10px 5px 0px rgba(190, 225, 12, 0.75);
+}
+#logo img{
+
+}
+#logoimg{
+    height: 60px;
+    border-radius: 12px;
+}
+/*Content of the page styles starts here*/
+#content{
+    min-height: 700px;
+    background-color: bisque;
+    background-image: url(image/pizza.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+/*Content of the page styles ends here*/
+/*Services of the page styles starts here*/
+#services{
+    min-height: 700px;
+    background-color: bisque;
+    display: flex;
+    justify-content:space-evenly;
+}
+.box{
+    border: 2px solid brown;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 25px;
+    background-color: antiquewhite;
+}
+.boximage{
+    height: 265px;
+    width: 265px;
+    border-radius: 25px;
+}
+.boximage:hover{
+    transform: scale(1.5,1.5);
+    transition: 2s;
+}
+.font1{
+    font-family:'Lobster Two', cursive;
+    font-size: 32px;
+    color:darkred;
+    text-align: center;
+    font-weight: bold;
+}
+/*Services of the page styles ends here*/
+
+/*Contact of the page styles ends here*/
+#contact{
+    min-height: 700px;
+    background-color: bisque;
+    /*display: flex;
+    justify-content:space-evenly;*/
+}
+#contactform{
+    width: 60%;
+    margin: auto;
+}
+#contactform input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family:'Lobster Two', cursive;
+    background-color: beige;
+}
+
+
+
+#maintitle{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 140px;
+    color: whitesmoke;
+    text-align: center;
+}
+#subtitle{
+    font-family:'Lobster Two', cursive;
+    font-size: 45px;
+    color: whitesmoke;
+    text-align: center;
+}
+#subtitle2{
+    font-family:'Lobster Two', cursive;
+    font-size: 45px;
+    color: whitesmoke;
+    text-align: center;
+}
+/*Footer of the page styles starts here*/
+#footer{
+    min-height: 50px;
+    background-color: saddlebrown;
+    color: black;
+    text-align: center;
+}
+#footer a{
+    color: black;
+    font font-family: arial, helvetica, sans-serif;
+}
+/*Footer of the page styles ends here*/

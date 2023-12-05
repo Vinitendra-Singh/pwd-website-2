@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="utilities.js">
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- <body bgColor='silver' id="b1"> -->
+<body onclick="document.bgColor='Red';" ondblclick="document.bgColor='blue'" id="b1">   
+A quick brown fox jumps over a lazy dog
+    <div id="test1">Qinton Vasko</div>
+    <button onmouseover="document.getElementById('test1').innerHTML = 'Hello'" style="">Click Me</button>
+    <br><br> 
+    <style>
+        #bulb1{
+            height: 150px;
+        }
+    </style>
+    <img src="image/pic_bulboff.gif" alt="" id="bulb1">
+    <button onclick="bulbon('tomato')">PUT ON</button>
+    <button onclick="bulboff('purple')">PUT OFF</button>
+    <script>
+        Hello
+        // document.write("Hello")
+    </script>
+<p>
+    <label for="n1">Enter number 1:</label>
+    <input type="text" id="n1" onfocus="changecolor()">
+    <br>
+    <label for="n2">Enter number 2:</label>
+    <input type="text" id="n2" onfocus="changecolor1()">
+    <br>
+    <label for="n3">Answer:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+    <input type="text" id="n3" disabled>
+    <br>
+    <button onclick="clear1()">Reset</button>
+    <button onclick="addnum()">Add +</button>
+    <button onclick="subnum()">Subtract -</button>
+    <button onclick="mulnum()">Multiply *</button>
+    <button onclick="divnum()">Divided /</button>
+    <button onclick="greater()">Greater Number</button>
+</p>
+<p>
+    <button onclick="showtable()">Show Table for n1</button>
+    <br>
+    <div id="numtable"></div>
+    </p>
+
+</body>
+</html>

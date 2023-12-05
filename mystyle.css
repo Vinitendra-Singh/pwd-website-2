@@ -1,0 +1,51 @@
+
+/* This is an complete unessessary comment */
+p{color:black;
+  background-color: aqua !important;
+}
+
+body{
+    background-color: palegoldenrod;
+    margin: 15px;
+    border: 8px solid red;
+    padding: 30px;
+    opacity: 195%;
+    font-size: 16px;
+    color: brown !important;
+} 
+#bft3{
+    color: khaki;
+    background-color: darkseagreen;
+}
+#bft5{
+    color: lightskyblue;
+}
+#bft7{
+    color: rebeccapurple;
+}
+#para1{
+    color:darkred;
+    text-align:center;
+}
+.nift{
+    background-color: saddlebrown;
+}
+#div1{
+    border-width: 12px;
+    border-color: chartreuse;
+    border-style: ridge;
+}
+#div2{
+    border: orangered 9px dashed;
+}
+#span1{
+    font-size: 30px;
+    text-decoration:line-through;
+}
+#span2{
+    text-decoration: wavy;
+}
+#span3{
+    vertical-align: sub;
+}
+
